@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fallback | Bad fall? Fall back.</title>
+<meta name="description" content="Fallback cushions collectors on Solana: a reveal that lands under its cost returns a share of the shortfall as USDC.">
+<meta name="theme-color" content="{{NIGHT}}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fallback">
+<meta property="og:title" content="Fallback | Bad fall? Fall back.">
+<meta property="og:description" content="A cushion for collectors on Solana.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="assets/logo-192.png">
+<link rel="preload" href="fonts/silkscreen-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<div class="progress" aria-hidden="true"><i data-progress></i></div>
+
+<header class="top" data-top>
+  <div class="wrap top-row">
+    <a class="brand" href="#top" aria-label="Fallback, back to top">
+      <img class="brand-logo" src="assets/logo-192.png" width="44" height="44" alt="Fallback logo">
+      <span class="brand-word">FALLBACK</span>
+    </a>
+    <span class="chain-chip" data-slot="chain">{{CHAIN_CHIP}}</span>
+    <nav class="nav" aria-label="Sections" data-nav>
+      <i class="nav-block" data-nav-block aria-hidden="true"></i>
+      <a href="#market" data-nav-link>Board</a>
+      <a href="#how" data-nav-link>Mechanism</a>
+      <a href="#cushion" data-nav-link>Cushion</a>
+      <a href="#vault" data-nav-link>Vault</a>
+      <a href="#faq" data-nav-link>Questions</a>
+    </nav>
+    <div class="socials" data-slot="social">{{SOCIAL}}</div>
+  </div>
+  <div class="ca-bar">
+    <div class="wrap" data-slot="ca">{{CA}}</div>
+  </div>
+</header>
+
+<nav class="nav nav-m" aria-label="Sections, small screens" data-nav-m>
+  <a href="#market">Board</a><a href="#how">Mechanism</a><a href="#cushion">Cushion</a><a href="#vault">Vault</a><a href="#faq">Questions</a>
+</nav>
+
+<main id="top">
+  <section class="hero" data-hero>
+    <div class="mesh" aria-hidden="true">
+      <i class="blob b1" data-depth="0.5"></i>
+      <i class="blob b2" data-depth="0.9"></i>
+      <i class="blob b3" data-depth="0.3"></i>
+      <i class="grid" data-depth="0.15"></i>
+      <i class="px p1" data-depth="1.4"></i><i class="px p2" data-depth="1.1"></i><i class="px p3" data-depth="1.7"></i><i class="px p4" data-depth="0.8"></i><i class="px p5" data-depth="1.3"></i>
+    </div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <div class="hero-meta" data-reveal>
+          <span class="pill" data-pill data-state="loading"><i class="dot"></i><span data-pill-text>Syncing</span></span>
+          <span class="chip" data-slot="domain-chip">fallback.ink</span>
+        </div>
+        <h1 class="h-pixel" data-reveal>Bad fall?<br><em>Fall back.</em></h1>
+        <p class="lede" data-reveal>Fallback is a soft landing for collectors who crack sealed boxes of cards and watches. If a reveal lands below the amount spent, some of the shortfall returns as USDC.</p>
+        <div class="cta" data-reveal>
+          <a class="btn btn-primary" href="#market">Watch the board</a>
+          <a class="btn btn-outline" href="#how">See the mechanism</a>
+        </div>
+      </div>
+      <div class="hero-art" data-reveal>
+        <div class="slab">
+          <div class="slab-glow" aria-hidden="true"></div>
+          <div class="mark" role="img" aria-label="Fallback mark: an arrow arcing from one box to another"></div>
+          <div class="slab-base" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap stats" aria-label="Live summary">
+    <div class="tile card spot" data-reveal><span class="label">Tokens listed</span><span class="tile-v num" data-stat="count">—</span></div>
+    <div class="tile card spot" data-reveal><span class="label">Combined volume</span><span class="tile-v num" data-stat="volume">—</span></div>
+    <div class="tile card spot" data-reveal><span class="label">Deepest pool</span><span class="tile-v num" data-stat="depth">—</span></div>
+    <div class="tile card spot" data-reveal><span class="label">Biggest mover</span><span class="tile-v num" data-stat="mover">—</span></div>
+  </section>
+
+  <section class="wrap sect" id="market" data-section>
+    <div class="sect-head" data-reveal>
+      <div><span class="label">Live board</span><h2 class="h-sect">What Solana is trading right now</h2></div>
+      <div class="tabs" role="tablist" aria-label="Board order" data-tabs>
+        <button role="tab" aria-selected="true" data-sort="volume">Volume</button>
+        <button role="tab" aria-selected="false" data-sort="move">Momentum</button>
+        <button role="tab" aria-selected="false" data-sort="depth">Depth</button>
+      </div>
+    </div>
+
+    <div class="ticker" aria-hidden="true" data-reveal><div class="ticker-track" data-ticker></div></div>
+
+    <div class="card board" data-reveal>
+      <div class="board-head label" aria-hidden="true">
+        <span>Token</span><span class="c-price">Price</span><span class="c-chg">Day move</span><span class="c-vol">Volume</span><span class="c-liq">Pool depth</span><span class="c-act"></span>
+      </div>
+      <ol class="rows" data-rows aria-live="off">
+        <li class="row skel" aria-hidden="true"></li><li class="row skel" aria-hidden="true"></li><li class="row skel" aria-hidden="true"></li><li class="row skel" aria-hidden="true"></li><li class="row skel" aria-hidden="true"></li>
+        <li class="row skel" aria-hidden="true"></li><li class="row skel" aria-hidden="true"></li><li class="row skel" aria-hidden="true"></li><li class="row skel" aria-hidden="true"></li><li class="row skel" aria-hidden="true"></li>
+      </ol>
+      <p class="board-msg" data-board-msg hidden></p>
+    </div>
+    <p class="note" data-reveal>Boosted listings only, ranked by the last day of trading. The board refreshes itself every minute and rests while this tab is hidden.</p>
+  </section>
+
+  <section class="wrap sect" id="how" data-section>
+    <div class="sect-head" data-reveal><div><span class="label">Mechanism</span><h2 class="h-sect">Four moves from sealed box to settled</h2></div></div>
+    <ol class="steps">
+      <li class="card spot step" data-reveal><span class="step-n">01</span><h3>Select a sealed box</h3><p>Pick cards or timepieces, then settle with a single transaction from a Solana wallet.</p></li>
+      <li class="card spot step" data-reveal><span class="step-n">02</span><h3>Reveal</h3><p>The item lands in the very wallet that paid, with its receipt one click away.</p></li>
+      <li class="card spot step" data-reveal><span class="step-n">03</span><h3>Compare</h3><p>Fallback sets the cost against the item's appraised worth at the moment of reveal.</p></li>
+      <li class="card spot step" data-reveal><span class="step-n">04</span><h3>Land softly</h3><p>Came out short? A share of the gap is sent automatically. Came out ahead? Nothing is owed and nothing is taken.</p></li>
+    </ol>
+  </section>
+
+  <section class="wrap sect" id="cushion" data-section>
+    <div class="sect-head" data-reveal><div><span class="label">Cushion</span><h2 class="h-sect">One line of arithmetic</h2></div></div>
+    <div class="card formula spot" data-reveal>
+      <code class="eq">cushion = share × (cost − worth)</code>
+      <p>The share climbs with the size of your holding. Each threshold stays pending until it is stated, and the cushion never exceeds the gap itself.</p>
+    </div>
+    <div class="tiles" data-slot="tiers">{{TIERS}}</div>
+  </section>
+
+  <section class="wrap sect" id="vault" data-section>
+    <div class="sect-head" data-reveal><div><span class="label">Vault</span><h2 class="h-sect">Where the cushion comes from</h2></div></div>
+    <p class="lede-s" data-reveal>Refunds are drawn from a stablecoin reserve kept at one public address, so anybody can read the balance. Figures below show pending until they are stated.</p>
+    <div class="tiles" data-slot="vault">{{VAULT}}</div>
+  </section>
+
+  <section class="wrap sect" id="faq" data-section>
+    <div class="sect-head" data-reveal><div><span class="label">Questions</span><h2 class="h-sect">Short answers</h2></div></div>
+    <div class="faq">
+      <details class="card" data-reveal><summary>What exactly is refunded?</summary><p>A share of the gap, but only for reveals that land below what was spent. Reveals that land higher trigger nothing.</p></details>
+      <details class="card" data-reveal><summary>Is there a contract yet?</summary><p>The line at the very top of this page fills itself the moment an address is stated. Until then it reads pending and offers nothing to copy.</p></details>
+      <details class="card" data-reveal><summary>Where do the board numbers come from?</summary><p>A public market index for Solana. They are shown as received and never edited. The board does not depend on the contract line in any way.</p></details>
+      <details class="card" data-reveal><summary>Is this advice?</summary><p>No. Nothing here recommends buying, selling or holding anything.</p></details>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-row">
+    <div class="foot-brand"><img src="assets/logo-192.png" width="44" height="44" alt="" loading="lazy"><div><strong class="brand-word">FALLBACK</strong><span class="foot-tag">Bad fall? Fall back.</span></div></div>
+    <div class="foot-meta" data-slot="foot">{{FOOT}}</div>
+  </div>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+<noscript><style>[data-reveal]{opacity:1!important;transform:none!important}</style></noscript>
+</body>
+</html>

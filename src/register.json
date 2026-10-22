@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "records": {
+    "chain":  { "state": "stated", "kind": "chain", "label": "Chain", "value": "Solana", "source": "client statement", "scope": "batch-level", "recorded": "2026-10-22" },
+    "rpc":    { "state": "stated", "kind": "endpoint", "label": "RPC", "url": "https://solana-rpc.publicnode.com", "source": "client statement", "scope": "batch-level", "recorded": "2026-10-22" },
+    "domain": { "state": "stated", "kind": "domain", "label": "Domain", "value": "fallback.ink", "url": "https://fallback.ink", "source": "client statement", "scope": "batch-level", "recorded": "2026-10-22" },
+    "market": { "state": "stated", "kind": "market-source", "label": "Market data", "url": "https://api.dexscreener.com/token-boosts/top/v1", "pairsUrl": "https://api.dexscreener.com/tokens/v1/solana/{addresses}", "source": "client statement", "scope": "batch-level", "recorded": "2026-10-22" },
+    "ca":     { "state": "absent", "kind": "address", "label": "Contract", "recorded": "2026-10-22" },
+    "x":      { "state": "absent", "kind": "social", "label": "X", "recorded": "2026-10-22" },
+    "github": { "state": "absent", "kind": "social", "label": "GitHub", "recorded": "2026-10-22" },
+    "vault":    { "state": "absent", "kind": "stat", "label": "Held in vault", "recorded": "2026-10-22" },
+    "refunded": { "state": "absent", "kind": "stat", "label": "Total refunded", "recorded": "2026-10-22" },
+    "opened":   { "state": "absent", "kind": "stat", "label": "Packs opened", "recorded": "2026-10-22" },
+    "cap":      { "state": "absent", "kind": "stat", "label": "Refund ceiling", "recorded": "2026-10-22" },
+    "tier1":  { "state": "absent", "kind": "stat", "label": "Tier one share", "recorded": "2026-10-22" },
+    "tier2":  { "state": "absent", "kind": "stat", "label": "Tier two share", "recorded": "2026-10-22" },
+    "tier3":  { "state": "absent", "kind": "stat", "label": "Tier three share", "recorded": "2026-10-22" },
+    "fee":    { "state": "absent", "kind": "stat", "label": "Pack fee", "recorded": "2026-10-22" }
+  }
+}

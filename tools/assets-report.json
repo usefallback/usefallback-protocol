@@ -1,0 +1,572 @@
+{
+  "brand/LOGO FALLBACK JPG.jpg.jpeg": {
+    "bytes": 201498,
+    "kind": "jpeg",
+    "ihdr": {
+      "width": 2000,
+      "height": 2000,
+      "note": "JPEG has no IHDR/alpha; SOF decoded"
+    },
+    "alphaHistogram8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4000000
+    ],
+    "transparentPixels": 0,
+    "pureBlackTransparentPixels": 0,
+    "dominant": [
+      {
+        "approx": "#f8d038",
+        "share": 0.9256
+      },
+      {
+        "approx": "#000000",
+        "share": 0.0501
+      },
+      {
+        "approx": "#080808",
+        "share": 0.0125
+      },
+      {
+        "approx": "#080800",
+        "share": 0.0034
+      },
+      {
+        "approx": "#f8d040",
+        "share": 0.0013
+      }
+    ],
+    "kmeansSnapped": [
+      {
+        "centroid": "#080807",
+        "snapped": {
+          "x": 948,
+          "y": 600,
+          "hex": "#080808"
+        }
+      },
+      {
+        "centroid": "#796a3b",
+        "snapped": {
+          "x": 798,
+          "y": 942,
+          "hex": "#7a6c3b"
+        }
+      },
+      {
+        "centroid": "#fed23f",
+        "snapped": {
+          "x": 0,
+          "y": 0,
+          "hex": "#fed23f"
+        }
+      }
+    ],
+    "inkBBox": {
+      "x0": 427,
+      "y0": 598,
+      "x1": 1569,
+      "y1": 1401
+    },
+    "size": {
+      "w": 2000,
+      "h": 2000
+    }
+  },
+  "brand/LOGO FALLBACK PNG...png": {
+    "bytes": 209685,
+    "kind": "png",
+    "ihdr": {
+      "width": 2000,
+      "height": 2000,
+      "bitDepth": 8,
+      "colourType": 6,
+      "interlace": 0
+    },
+    "alphaHistogram8": [
+      3709888,
+      3362,
+      2785,
+      1317,
+      1794,
+      2971,
+      2733,
+      275150
+    ],
+    "transparentPixels": 3729850,
+    "pureBlackTransparentPixels": 3704879,
+    "dominant": [
+      {
+        "approx": "#000000",
+        "share": 0.9858
+      },
+      {
+        "approx": "#080808",
+        "share": 0.0062
+      },
+      {
+        "approx": "#080800",
+        "share": 0.001
+      },
+      {
+        "approx": "#000800",
+        "share": 0.0008
+      },
+      {
+        "approx": "#101010",
+        "share": 0.0005
+      }
+    ],
+    "kmeansSnapped": [
+      {
+        "centroid": "#9a9a9a",
+        "snapped": {
+          "x": 926,
+          "y": 596,
+          "hex": "#9a9a9a"
+        }
+      },
+      {
+        "centroid": "#080808",
+        "snapped": {
+          "x": 942,
+          "y": 600,
+          "hex": "#080808"
+        }
+      },
+      {
+        "centroid": "#000000",
+        "snapped": {
+          "x": 0,
+          "y": 0,
+          "hex": "#000000"
+        }
+      }
+    ],
+    "inkBBox": {
+      "x0": 427,
+      "y0": 597,
+      "x1": 1570,
+      "y1": 1402
+    },
+    "size": {
+      "w": 2000,
+      "h": 2000
+    }
+  },
+  "brand/LOGO FALLBACK PNG.png": {
+    "bytes": 316460,
+    "kind": "png",
+    "ihdr": {
+      "width": 2000,
+      "height": 2000,
+      "bitDepth": 8,
+      "colourType": 6,
+      "interlace": 0
+    },
+    "alphaHistogram8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4000000
+    ],
+    "transparentPixels": 0,
+    "pureBlackTransparentPixels": 0,
+    "dominant": [
+      {
+        "approx": "#f8d038",
+        "share": 0.9258
+      },
+      {
+        "approx": "#000000",
+        "share": 0.051
+      },
+      {
+        "approx": "#080808",
+        "share": 0.0102
+      },
+      {
+        "approx": "#080800",
+        "share": 0.0028
+      },
+      {
+        "approx": "#000800",
+        "share": 0.0025
+      }
+    ],
+    "kmeansSnapped": [
+      {
+        "centroid": "#080807",
+        "snapped": {
+          "x": 916,
+          "y": 600,
+          "hex": "#080807"
+        }
+      },
+      {
+        "centroid": "#76683a",
+        "snapped": {
+          "x": 796,
+          "y": 942,
+          "hex": "#766939"
+        }
+      },
+      {
+        "centroid": "#ffd33f",
+        "snapped": {
+          "x": 0,
+          "y": 0,
+          "hex": "#ffd33f"
+        }
+      }
+    ],
+    "inkBBox": {
+      "x0": 427,
+      "y0": 598,
+      "x1": 1569,
+      "y1": 1401
+    },
+    "size": {
+      "w": 2000,
+      "h": 2000
+    }
+  },
+  "reference/FALLBACK 1.jpg.jpeg": {
+    "bytes": 217358,
+    "kind": "jpeg",
+    "ihdr": {
+      "width": 1600,
+      "height": 900,
+      "note": "JPEG has no IHDR/alpha; SOF decoded"
+    },
+    "alphaHistogram8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "transparentPixels": 0,
+    "pureBlackTransparentPixels": 0,
+    "dominant": [
+      {
+        "approx": "#000000",
+        "share": 0.4061
+      },
+      {
+        "approx": "#080800",
+        "share": 0.0726
+      },
+      {
+        "approx": "#080000",
+        "share": 0.0412
+      },
+      {
+        "approx": "#100800",
+        "share": 0.0266
+      },
+      {
+        "approx": "#080808",
+        "share": 0.0237
+      }
+    ],
+    "size": {
+      "w": 1600,
+      "h": 900
+    }
+  },
+  "reference/FALLBACK 2.jpg.jpeg": {
+    "bytes": 218951,
+    "kind": "jpeg",
+    "ihdr": {
+      "width": 1600,
+      "height": 900,
+      "note": "JPEG has no IHDR/alpha; SOF decoded"
+    },
+    "alphaHistogram8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "transparentPixels": 0,
+    "pureBlackTransparentPixels": 0,
+    "dominant": [
+      {
+        "approx": "#000000",
+        "share": 0.4207
+      },
+      {
+        "approx": "#080800",
+        "share": 0.072
+      },
+      {
+        "approx": "#080000",
+        "share": 0.0414
+      },
+      {
+        "approx": "#100800",
+        "share": 0.0265
+      },
+      {
+        "approx": "#080808",
+        "share": 0.0241
+      }
+    ],
+    "size": {
+      "w": 1600,
+      "h": 900
+    }
+  },
+  "reference/FALLBACK 3.jpg.jpeg": {
+    "bytes": 215241,
+    "kind": "jpeg",
+    "ihdr": {
+      "width": 1600,
+      "height": 900,
+      "note": "JPEG has no IHDR/alpha; SOF decoded"
+    },
+    "alphaHistogram8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "transparentPixels": 0,
+    "pureBlackTransparentPixels": 0,
+    "dominant": [
+      {
+        "approx": "#000000",
+        "share": 0.4269
+      },
+      {
+        "approx": "#080800",
+        "share": 0.0719
+      },
+      {
+        "approx": "#080000",
+        "share": 0.0407
+      },
+      {
+        "approx": "#100800",
+        "share": 0.0264
+      },
+      {
+        "approx": "#080808",
+        "share": 0.0234
+      }
+    ],
+    "size": {
+      "w": 1600,
+      "h": 900
+    }
+  },
+  "reference/FALLBACK 4.jpg.jpeg": {
+    "bytes": 223053,
+    "kind": "jpeg",
+    "ihdr": {
+      "width": 1600,
+      "height": 900,
+      "note": "JPEG has no IHDR/alpha; SOF decoded"
+    },
+    "alphaHistogram8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "transparentPixels": 0,
+    "pureBlackTransparentPixels": 0,
+    "dominant": [
+      {
+        "approx": "#000000",
+        "share": 0.4211
+      },
+      {
+        "approx": "#080800",
+        "share": 0.0721
+      },
+      {
+        "approx": "#080000",
+        "share": 0.0415
+      },
+      {
+        "approx": "#100800",
+        "share": 0.0266
+      },
+      {
+        "approx": "#080808",
+        "share": 0.0244
+      }
+    ],
+    "size": {
+      "w": 1600,
+      "h": 900
+    }
+  },
+  "reference/FALLBACK 5.jpg.jpeg": {
+    "bytes": 218733,
+    "kind": "jpeg",
+    "ihdr": {
+      "width": 1600,
+      "height": 900,
+      "note": "JPEG has no IHDR/alpha; SOF decoded"
+    },
+    "alphaHistogram8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "transparentPixels": 0,
+    "pureBlackTransparentPixels": 0,
+    "dominant": [
+      {
+        "approx": "#000000",
+        "share": 0.4256
+      },
+      {
+        "approx": "#080800",
+        "share": 0.0719
+      },
+      {
+        "approx": "#080000",
+        "share": 0.0408
+      },
+      {
+        "approx": "#100800",
+        "share": 0.0264
+      },
+      {
+        "approx": "#080808",
+        "share": 0.024
+      }
+    ],
+    "size": {
+      "w": 1600,
+      "h": 900
+    }
+  },
+  "reference/FALLBACK 6.jpg.jpeg": {
+    "bytes": 220628,
+    "kind": "jpeg",
+    "ihdr": {
+      "width": 1600,
+      "height": 900,
+      "note": "JPEG has no IHDR/alpha; SOF decoded"
+    },
+    "alphaHistogram8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1440000
+    ],
+    "transparentPixels": 0,
+    "pureBlackTransparentPixels": 0,
+    "dominant": [
+      {
+        "approx": "#000000",
+        "share": 0.421
+      },
+      {
+        "approx": "#080800",
+        "share": 0.072
+      },
+      {
+        "approx": "#080000",
+        "share": 0.0404
+      },
+      {
+        "approx": "#100800",
+        "share": 0.0266
+      },
+      {
+        "approx": "#080808",
+        "share": 0.0242
+      }
+    ],
+    "size": {
+      "w": 1600,
+      "h": 900
+    }
+  },
+  "reference/SAMPUL FALLBACK JPG.jpg.jpeg": {
+    "bytes": 837665,
+    "kind": "jpeg",
+    "ihdr": {
+      "width": 1500,
+      "height": 500,
+      "note": "JPEG has no IHDR/alpha; SOF decoded"
+    },
+    "alphaHistogram8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      750000
+    ],
+    "transparentPixels": 0,
+    "pureBlackTransparentPixels": 0,
+    "dominant": [
+      {
+        "approx": "#000000",
+        "share": 0.324
+      },
+      {
+        "approx": "#080808",
+        "share": 0.0619
+      },
+      {
+        "approx": "#080800",
+        "share": 0.0268
+      },
+      {
+        "approx": "#080000",
+        "share": 0.0215
+      },
+      {
+        "approx": "#100800",
+        "share": 0.0194
+      }
+    ],
+    "size": {
+      "w": 1500,
+      "h": 500
+    }
+  }
+}

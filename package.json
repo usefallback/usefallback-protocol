@@ -1,0 +1,20 @@
+{
+  "name": "fallback",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bad fall? Fall back.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "gates": "node tools/gates.mjs",
+    "serve": "node tools/serve.mjs",
+    "assets": "node tools/analyze-assets.mjs"
+  },
+  "devDependencies": {
+    "@fontsource-variable/inter": "^5.2.8",
+    "@fontsource/silkscreen": "^5.2.8",
+    "jpeg-js": "^0.4.4",
+    "pngjs": "^7.0.0"
+  }
+}
